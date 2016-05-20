@@ -72,7 +72,8 @@ s.listen(True)
 conn, addr = s.accept()
 
 #String형의 이미지를 수신받아서 이미지로 변환 하고 화면에 출력
-length = recvall(conn,16) #길이 16의 데이터를 먼저 수신하는 것은 여기에 이미지의 길이를 먼저 받아서 이미지를 받을 때 편리하려고 하는 것이다.
+length = recvall(conn,16)
+#길이 16의 데이터를 먼저 수신하는 것은 여기에 이미지의 길이를 먼저 받아서 이미지를 받을 때 편리하려고 하는 것이다.
 stringData = recvall(conn, int(length))
 data = numpy.fromstring(stringData, dtype='uint8')
 s.close()
