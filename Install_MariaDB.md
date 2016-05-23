@@ -38,4 +38,4 @@ http://www.heidisql.com/download.php
 
 unnamed라고 된 이름을 원하는 것으로 바꿔주고, 사용자 계정(사용자/암호), 포트 번호를 아까 MariaDB 설치할 때 설정한 값으로 입력한다.  
 
-열기를 누르면 MariaDB와 연결된다.  
+'열기'를 누르면 MariaDB와 연결된다.  
