@@ -1,6 +1,6 @@
 ##Python을 이용한 OpenCV에서 TCP socket을 통해서 Image 전송하기.  
 
-TCP통신만 보면 일반적인 Python의 TCP통신 기법을 이용한다.  
+TCP socket통신만 보면 일반적인 Python의 TCP socket통신 기법을 이용한다.  
 python의 tcp socket에서는 문자열을 보내고 받을 수 있는데, 이를 따르기 위해서 OpenCV에서는 Image를 문자열(string)으로 변환할 수 있다.  
 
 즉,
