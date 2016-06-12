@@ -10,6 +10,7 @@ https://sourceforge.net/projects/win32diskimager/
 여기서 다운 받을 수 있다. 설치하고 실행시킨다.  
 
 실행하면 아래와 같은 창이 나타난다.  
+![](https://github.com/ChanMinPark/TIL/blob/master/image/Install_Raspbian_Jessie_and_initSetting/image1.png)
 
 이 프로그램을 이용하면 이미지를 Micro SD카드에 쓰는 것(업로드)도 되지만 읽는 것도 가능하다.  
 업로드 할 때는 업로드 할 장치를 ‘Device’에서 선택하고, 업로드 할 이미지를 ‘Image File’에 선택한다. 그리고 ‘Write’를 누르면 된다.  
