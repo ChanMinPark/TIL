@@ -44,7 +44,10 @@ AWS Korea 웹페이지 링크 : http://aws.amazon.com/ko/
 
 
 가입 끝~  
+가입이 되면 바로 1년간은 Free tier가 적용된다.  
 ![](https://github.com/ChanMinPark/TIL/blob/master/image/Get_started_AWS_EC2/image07.PNG)
 
 
-###2. AWS Free tier 받기
+###2. AWS EC2 시작하기
+참고 site : http://hyeonstorage.tistory.com/145  
+
