@@ -49,7 +49,6 @@ AWS Korea 웹페이지 링크 : http://aws.amazon.com/ko/
 
 
 ###2. AWS EC2 시작하기
-참고 site : http://hyeonstorage.tistory.com/145  
 
 우선 먼저, 리전을 'Seoul'로 선택한다. 한국에서 사용할 거라면 리전이 가까울 수록 좋을거니깐..  
 리전은 AWS의 Data Center라고 생각하면 된다. 옛날엔 Seoul이 없었던 것 같지만 이제는 있다.
@@ -58,3 +57,51 @@ AWS 웹페이지에 로그인한 후에 오른쪽 상단에 계정 우측에서 
 이제 EC2를 사용하기 위해 EC2 Instance를 생성한다.  
 먼저 'AWS Management Console' 페이지로 들어간다.  
 거기서 'EC2'를 클릭한다.  
+![](https://github.com/ChanMinPark/TIL/blob/master/image/Get_started_AWS_EC2/image08.PNG)
+
+
+그리고 가운데 'Launch Instance'를 클릭한다.  
+![](https://github.com/ChanMinPark/TIL/blob/master/image/Get_started_AWS_EC2/image09.PNG)
+
+
+Instance를 생성할 때는 어떤 종류의 Instance를 생성할지 정해야 한다.  
+여기서는 AMI(Amazon Machine Image)를 선택한다.  
+오른쪽의 'Select'를 클릭하면 된다.  
+![](https://github.com/ChanMinPark/TIL/blob/master/image/Get_started_AWS_EC2/image10.PNG)
+
+
+그 다음으로는 Instance의 성능을 선택하게 되는데, 당연히 성능에 따라서 요금이 다르다.  
+Free tier는 t2.micro가 무료로 제공되기 때문에 t2.micro를 선택하고 'Review and Launch'를 클릭한다.  
+![](https://github.com/ChanMinPark/TIL/blob/master/image/Get_started_AWS_EC2/image11.PNG)
+
+
+다음 페이지에서 경고 문구를 보니, 웹서버를 쓸꺼면 HTTP 포트를 열어주라고 한다.  
+이 작업은 Security Groups에서 할 수 있다. 'Edit security groups'를 클릭하여 수정 페이지로 간다.  
+![](https://github.com/ChanMinPark/TIL/blob/master/image/Get_started_AWS_EC2/image12.PNG)
+
+
+기본적으로 EC2에 접속하기 위한 SSH가 설정되어 있다.  
+'Add Rule'을 눌러서 방화벽에 통과시킬 포트를 설정한다.  
+![](https://github.com/ChanMinPark/TIL/blob/master/image/Get_started_AWS_EC2/image13.PNG)
+
+
+나는 웹서버로 쓸거라서 HTTP와 HTTPS를 추가하였다.  
+Source에 0.0.0.0/0은 모든 IP로부터의 접속을 허용한다는 것이다.  
+특정 IP만 허용하게 하려면 수정하면되지만 난 그냥 뒀다.  
+![](https://github.com/ChanMinPark/TIL/blob/master/image/Get_started_AWS_EC2/image14.PNG)
+
+
+마지막으로 Review Instance Launch 단계에서 'Launch'를 눌러서 Instance를 생성한다.  
+![](https://github.com/ChanMinPark/TIL/blob/master/image/Get_started_AWS_EC2/image15.PNG)
+
+
+마지막!으로 SSH접속을 위한 key를 다운로드 받는다.  
+Key는 [C:\user\{yourusername}\.ssh\{key이름}.pem] 위치에 저장하는 것이 좋다.(Windows환경)  
+(Mac/Linux에서는 홈 디렉토리의 .ssh 하위에 저장하는 것이 좋다. [~/.ssh/{key이름}.pem])  
+Tip. Windows에서 '.ssh' 폴더가 없으면 폴더를 새로 만들고 이름을 '.ssh.'으로 하면 마지막 점은 사라지면서 점으로 시작하는 폴더를 만들 수 있다.  
+![](https://github.com/ChanMinPark/TIL/blob/master/image/Get_started_AWS_EC2/image16.PNG)
+
+
+끝났다. 끝났다.  
+View Instance를 클릭하면 생성한 Instance의 상태정보를 볼 수 있다.  
+![](https://github.com/ChanMinPark/TIL/blob/master/image/Get_started_AWS_EC2/image17.PNG)
