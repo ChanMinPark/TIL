@@ -105,3 +105,13 @@ Tip. Windows에서 '.ssh' 폴더가 없으면 폴더를 새로 만들고 이름�
 끝났다. 끝났다.  
 View Instance를 클릭하면 생성한 Instance의 상태정보를 볼 수 있다.  
 ![](https://github.com/ChanMinPark/TIL/blob/master/image/Get_started_AWS_EC2/image17.PNG)
+
+
+EC2에 접속하기 위해서 나는 Github의 Shell 프로그램을 이용했다.  
+AWS에서는 Git Bash를 이용하라고 했지만 나는 어차피 Github를 설치 해놔서 Github의 Shell을 썼는데 잘 접속 된다.  
+
+접속 방법은 Shell에서 아래의 명령어를 입력하면 된다.  
+ssh -i 'c:\Users\{yourusername}\.ssh\{key이름}.pem' ec2-user@{IP_Address}  
+(예: ssh -i 'c:\Users\pcm\.ssh\mykey.pem'   ec2-user@52.27.212.125)  
+
+ip주소는 EC2 대시보드에서 확인 할 수 있다.  
