@@ -51,3 +51,10 @@ AWS Korea 웹페이지 링크 : http://aws.amazon.com/ko/
 ###2. AWS EC2 시작하기
 참고 site : http://hyeonstorage.tistory.com/145  
 
+우선 먼저, 리전을 'Seoul'로 선택한다. 한국에서 사용할 거라면 리전이 가까울 수록 좋을거니깐..  
+리전은 AWS의 Data Center라고 생각하면 된다. 옛날엔 Seoul이 없었던 것 같지만 이제는 있다.
+AWS 웹페이지에 로그인한 후에 오른쪽 상단에 계정 우측에서 리전을 선택할 수 있다.  
+
+이제 EC2를 사용하기 위해 EC2 Instance를 생성한다.  
+먼저 'AWS Management Console' 페이지로 들어간다.  
+거기서 'EC2'를 클릭한다.  
