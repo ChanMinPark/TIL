@@ -1,9 +1,27 @@
 ##Maria DB 설치 (on AWS EC2)  
 
 ####Step 1) Maria DB 설치  
-**!참고!** Raspbian을 wheezy가 아닌 jessie버전으로 사용해야 한다. wheezy에서도 추가적인 과정을 통해서 mariadb-server 패키지를 받을 수 있지만 번거롭다. 그냥 jessie를 사용하는게 좋아보인다.  
-
 apt-get을 이용해서 MariaDB를 설치한다.  
+apt-cache 를 이용하면 설치 전에 다운 받은 패키지가 있는지, 어떤 버전을 다운 받을 수 있는지 확인 할 수 있다.  
+확인은 선택사항이다.  
+```
+$apt-cache policy mariadb-server
+```
+(그림1 추가)  
+
+설치는 apt-get install을 이용한다.  
 ```
 $sudo apt-get install mariadb-server
 ```
+
+설치 과정중에 root 계정에 대한 비밀번호를 물어본다.  
+(그림2, 3 추가)  
+
+잠시 후면 설치가 완료된다.  
+
+설치를 확인하기 위하여 MariaDB에 접속해 본다.  
+```
+$mysql -u root -p
+```
+아래 그림처럼 나오면 설치가 정상적으로 된 것이다.  
+(그림4 추가)  
