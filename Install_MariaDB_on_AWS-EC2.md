@@ -7,15 +7,16 @@ apt-cache 를 이용하면 설치 전에 다운 받은 패키지가 있는지, �
 ```
 $apt-cache policy mariadb-server
 ```
-(그림1 추가)  
+![](https://github.com/ChanMinPark/TIL/blob/master/image/Install_MariaDB_on_AWS-EC2/image01.PNG)
 
 설치는 apt-get install을 이용한다.  
 ```
 $sudo apt-get install mariadb-server
 ```
 
-설치 과정중에 root 계정에 대한 비밀번호를 물어본다.  
-(그림2, 3 추가)  
+설치 과정중에 root 계정에 대한 비밀번호를 물어본다.(2번 물어본다.)  
+![](https://github.com/ChanMinPark/TIL/blob/master/image/Install_MariaDB_on_AWS-EC2/image02.PNG)
+![](https://github.com/ChanMinPark/TIL/blob/master/image/Install_MariaDB_on_AWS-EC2/image03.PNG)
 
 잠시 후면 설치가 완료된다.  
 
@@ -24,4 +25,4 @@ $sudo apt-get install mariadb-server
 $mysql -u root -p
 ```
 아래 그림처럼 나오면 설치가 정상적으로 된 것이다.  
-(그림4 추가)  
+![](https://github.com/ChanMinPark/TIL/blob/master/image/Install_MariaDB_on_AWS-EC2/image04.PNG)
