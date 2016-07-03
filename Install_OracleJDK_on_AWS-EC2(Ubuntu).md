@@ -44,3 +44,5 @@ $sudo apt-get install oracle-java8-set-default
 
 ####3. 비고
 - apt로 설치한 oracle java8이 jdk까지 설치되는 것이 맞나 싶었다. oracle의 설명을 보니깐 jdk와 jre가 모두 포함된 것이라고 한다. 오히려 jre만 설치하는게 불가능하다고 한다.
+- Oracle에서 제공하는 'apt를 이용한 java8 설치 방법'은 아래 링크에서 확인 할 수 있다.
+  - 링크 : http://www.webupd8.org/2012/09/install-oracle-java-8-in-ubuntu-via-ppa.html
