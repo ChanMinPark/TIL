@@ -34,3 +34,13 @@ $java -version
 $sudo update-alternatives --config java
 ```
 사용하고 싶은 java를 선택해주면 된다.  
+
+마지막으로, Oracle jdk8을 사용하기 위한 환경변수 설정을 해줘야 하는데,  
+수동으로 할 수도 있지만 oracle에서 환경변수 설정을 위한 패키지도 제공한다.  
+```
+$sudo apt-get install oracle-java8-set-default
+```
+이제 Oracle Java8 설치가 완료 되었다.
+
+####3. 비고
+- apt로 설치한 oracle java8이 jdk까지 설치되는 것이 맞나 싶었다. oracle의 설명을 보니깐 jdk와 jre가 모두 포함된 것이라고 한다. 오히려 jre만 설치하는게 불가능하다고 한다.
