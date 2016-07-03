@@ -30,3 +30,7 @@ $java -version
 ```
 
 혹시 다른 java(다른 버전 또는 openjdk)가 동시에 깔려있어서 사용할 java를 선택해 주어야 하면 아래와 같이 할 수 있다.  
+```
+$sudo update-alternatives --config java
+```
+사용하고 싶은 java를 선택해주면 된다.  
