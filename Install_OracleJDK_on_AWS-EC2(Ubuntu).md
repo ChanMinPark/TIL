@@ -40,6 +40,8 @@ $sudo update-alternatives --config java
 ```
 $sudo apt-get install oracle-java8-set-default
 ```
+위의 패키지를 설치한 후에는 반드시 Reboot해줘야 한다.  
+
 이제 Oracle Java8 설치가 완료 되었다.
 
 ####3. 비고
