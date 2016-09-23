@@ -37,3 +37,5 @@ Key는 [C:\user{yourusername}.ssh{key이름}.pem] 위치에 저장하는 것이 
 Tip. Windows에서 '.ssh' 폴더가 없으면 폴더를 새로 만들고 이름을 '.ssh.'으로 하면 마지막 점은 사라지면서 점으로 시작하는 폴더를 만들 수 있습니다.  
 키파일을 저장했으면 'Launch Instances'를 누릅니다.  
 
+## 10. 서버 접속
+Instance 현황에서 해당 서버를 선택하고 상단에 'Connect'를 누르면 ssh 접속할 수 있는 방법이 나옵니다.
