@@ -68,3 +68,5 @@ $nano server.xml
 $cd /usr/local/apache-tomcat-8.0.37/bin
 $sh startup.sh
 ```
+
+**주의사항! 반드시 루트 권한으로 startup시켜야합니다. 루트 계정인 상태로 진행하거나 sudo를 꼭 붙여줘야 포트가 제대로 열립니다.**  
