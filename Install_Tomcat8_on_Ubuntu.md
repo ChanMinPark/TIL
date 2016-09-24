@@ -1,8 +1,8 @@
 # 우분투에 Tomcat 8 설치하기
 
 ## 1. Tomcat 8 다운로드
-Tomcat 8 다운로드 페이지(http://tomcat.apache.org/download-80.cgi)에서 다운로드 할 톰캣의 다운로드 링크를 알아냅니다.  
-저는 8.0.37(현재 최신)을 다운로드 받기 위해서 'Core'의 'tar.gz'에 우클릭해서 링크 주소 복사하기를 하였습니다.(http://mirror.navercorp.com/apache/tomcat/tomcat-8/v8.0.37/bin/apache-tomcat-8.0.37.tar.gz)  
+Tomcat 8 다운로드 페이지( http://tomcat.apache.org/download-80.cgi ) 에서 다운로드 할 톰캣의 다운로드 링크를 알아냅니다.  
+저는 8.0.37(현재 최신)을 다운로드 받기 위해서 'Core'의 'tar.gz'에 우클릭해서 링크 주소 복사하기를 하였습니다.( http://mirror.navercorp.com/apache/tomcat/tomcat-8/v8.0.37/bin/apache-tomcat-8.0.37.tar.gz )  
 
 우분투에서 wget으로 위의 링크의 파일을 다운로드합니다.  
 ```
