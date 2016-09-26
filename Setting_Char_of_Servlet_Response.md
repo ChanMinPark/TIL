@@ -14,6 +14,7 @@ Http Servlet에서 response로 원하는 출력을 하고자 할때 아래의 �
 이때 출력에 한글이 있는데 이대로 출력하면 웹브라우저에서 물음표(?)로 출력됩니다.  
 
 이 문제를 해결하려면, 아래와 같이 언어 속성을 설정하는 코드(setContentType)를 추가해주어야 합니다.  
+이때, 반드시 resp.getWriter()를 수행하기 전에 속성을 설정해 주어야 합니다.  
 ```
 @Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
