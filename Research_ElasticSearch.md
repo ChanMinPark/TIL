@@ -1,5 +1,5 @@
 # ElasticSearch
-(참고 : http://www.slideshare.net/seunghyuneom/elastic-search-52724188 )
+(참고 : http://www.slideshare.net/seunghyuneom/elastic-search-52724188 )  
 (참고 : http://opennote46.tistory.com/143 )  
 (참고 : 설치 및 자바에서 사용 http://i5on9i.blogspot.kr/2015/04/elastic-search-java.html?m=1 )  
 
