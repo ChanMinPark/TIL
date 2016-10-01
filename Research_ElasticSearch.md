@@ -8,3 +8,8 @@ Elasticsearch is a search engine based on Lucene. It provides a distributed, mul
 (Wiki pedia)
 
 ## 2. ElasticSearch 특징
+
+
+## 3. Query
+(참고 : http://knight76.tistory.com/entry/elasitcsearch-DFS-Query-Then-Fetch )
+(참고 : https://www.elastic.co/blog/understanding-query-then-fetch-vs-dfs-query-then-fetch )
