@@ -9,7 +9,11 @@ Elasticsearch is a search engine based on Lucene. It provides a distributed, mul
 
 ## 2. ElasticSearch 특징
 
+## 3. 설치
+ElasticSearch 설치 방법  
 
-## 3. Query
+## 4. Java API
+
+## 5. Query
 (참고 : http://knight76.tistory.com/entry/elasitcsearch-DFS-Query-Then-Fetch )  
 (참고 : https://www.elastic.co/blog/understanding-query-then-fetch-vs-dfs-query-then-fetch )
