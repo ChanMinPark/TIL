@@ -21,6 +21,7 @@ ElasticSearch 설치 방법
 - DFS Query Then Fetch
  - DFS = Document Frequency Statics
  - 미리 질의 (Prequery) 하여 다큐먼트 질의를 하고, 전체적인 득점(score)을 계산한다.
+ - 얼마나 중요한 단어가 나타나는지 통계를 구해서 좋은 품질의 키워드의 점수를 높이는데 있다. 따라서, 속도는 좀 느릴 수 있지만, 좋은 품질을 얻을 수 있다. 
 
 - Query Then Fetch
  - 
