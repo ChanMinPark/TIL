@@ -17,3 +17,10 @@ ElasticSearch 설치 방법
 ## 5. Query
 (참고 : http://knight76.tistory.com/entry/elasitcsearch-DFS-Query-Then-Fetch )  
 (참고 : https://www.elastic.co/blog/understanding-query-then-fetch-vs-dfs-query-then-fetch )
+
+- DFS Query Then Fetch
+ - DFS = Document Frequency Statics
+ - 미리 질의 (Prequery) 하여 다큐먼트 질의를 하고, 전체적인 득점(score)을 계산한다.
+
+- Query Then Fetch
+ - 
