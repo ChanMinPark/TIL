@@ -12,25 +12,25 @@ Elasticsearch is a search engine based on Lucene. It provides a distributed, mul
 ## 3. 설치
 (참고 : http://bakyeono.net/post/2016-06-03-start-elasticsearch.html#section-5)  
 
-1. ElasticSearch 다운로드  
+Step 1. ElasticSearch 다운로드  
 아래 명령어를 이용해서 tar.gz형식의 ElasticSearch 압축파일을 다운로드 받는다.  
 ```
 wget https://download.elastic.co/elasticsearch/release/org/elasticsearch/distribution/tar/elasticsearch/2.4.1/elasticsearch-2.4.1.tar.gz
 ```
 
-2. 압축해제  
+Step 2. 압축해제  
 아래 명령어로 압푹을 해제한다.  
 ```
 tar -xvf elasticsearch-2.4.1.tar.gz
 ```
 
-3. ElasticSearch 실행  
+Step 3. ElasticSearch 실행  
 아래 명령어로 ElasticSearch를 실행한다.  
 ```
 ./elasticsearch
 ```
 
-4. 설치 확인  
+Step 4. 설치 확인  
 아래 명령어로 설치를 확인한다.  
 ```
 curl -X GET http://localhost:9200
