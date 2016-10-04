@@ -10,7 +10,9 @@ Elasticsearch is a search engine based on Lucene. It provides a distributed, mul
 ## 2. ElasticSearch 특징
 
 ## 3. 설치
+(참고 : http://bakyeono.net/post/2016-06-03-start-elasticsearch.html#section-5)  
 ElasticSearch 설치 방법  
+
 
 ## 4. Java API
 
