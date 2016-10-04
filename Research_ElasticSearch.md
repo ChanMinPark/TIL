@@ -29,7 +29,9 @@ tar -xvf elasticsearch-2.4.1.tar.gz
 ```
 ./elasticsearch
 ```
-
+**putty에서 실행했을 때 putty를 꺼도 elasticsearch는 꺼지지 않도록 elasticsearch를 실행해야함**
+**screen을 이용하면 될듯**
+**또는 crontab에 등록**
 
 ## 4. Java API
 
