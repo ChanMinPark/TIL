@@ -19,19 +19,27 @@ wget https://download.elastic.co/elasticsearch/release/org/elasticsearch/distrib
 ```
 
 2. 압축해제  
-아래 명령어로 압푹을 해제합니다.  
+아래 명령어로 압푹을 해제한다.  
 ```
 tar -xvf elasticsearch-2.4.1.tar.gz
 ```
 
 3. ElasticSearch 실행  
-아래 명령어로 ElasticSearch를 실행합니다.  
+아래 명령어로 ElasticSearch를 실행한다.  
 ```
 ./elasticsearch
 ```
-**putty에서 실행했을 때 putty를 꺼도 elasticsearch는 꺼지지 않도록 elasticsearch를 실행해야함**
-**screen을 이용하면 될듯**
-**또는 crontab에 등록**
+
+4. 설치 확인  
+아래 명령어로 설치를 확인한다.  
+```
+curl -X GET http://localhost:9200
+```
+
+**putty에서 실행했을 때 putty를 꺼도 elasticsearch는 꺼지지 않도록 elasticsearch를 실행해야함**  
+**screen을 이용하면 될듯**  
+**또는 crontab에 등록**  
+**방법 추가하기**  
 
 ## 4. Java API
 
