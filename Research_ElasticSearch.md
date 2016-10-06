@@ -44,6 +44,12 @@ nohup ./elasticsearch &
 ```
 
 ## 4. Java API
+- 사전 작업
+(1) 클러스터 이름 변경  
+엘라스틱서치 폴더 내부에서 config폴더로 갑니다.  
+내부에 elasticsearch.yml 파일이 있는데 이 파일 내부에 cluster.name 부분의 주석을 없애고 원하는 이름으로 변경합니다.  
+그리고 엘라스틱서치를 재시작합니다.  
+(재시작 방법을 몰라서 kill로 죽이고 실행시켰습니다.)  
 
 ## 5. Query
 (참고 : http://knight76.tistory.com/entry/elasitcsearch-DFS-Query-Then-Fetch )  
