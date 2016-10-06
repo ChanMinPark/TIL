@@ -36,10 +36,12 @@ Step 4. 설치 확인
 curl -X GET http://localhost:9200
 ```
 
-**putty에서 실행했을 때 putty를 꺼도 elasticsearch는 꺼지지 않도록 elasticsearch를 실행해야함**  
-**screen을 이용하면 될듯**  
-**또는 crontab에 등록**  
-**방법 추가하기**  
+Step 5. 백그라운드 실행  
+터미널을 종료해도 ElasticSearch가 종료되지 않도록 백그라운드로 실행합니다.  
+```
+cd {엘라스틱서치 폴더 위치}/bin
+nohup ./elasticsearch &
+```
 
 ## 4. Java API
 
