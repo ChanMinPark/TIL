@@ -52,6 +52,9 @@ nohup ./elasticsearch &
 그리고 엘라스틱서치를 재시작합니다.  
 (재시작 방법을 몰라서 kill로 죽이고 실행시켰습니다.)  
 
+(2) Java API  
+(참 : https://dzone.com/articles/elasticsearch-java-api )
+
 ## 5. Query
 (참고 : http://knight76.tistory.com/entry/elasitcsearch-DFS-Query-Then-Fetch )  
 (참고 : https://www.elastic.co/blog/understanding-query-then-fetch-vs-dfs-query-then-fetch )
