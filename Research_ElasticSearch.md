@@ -45,7 +45,7 @@ nohup ./elasticsearch &
 ```
 
 ## 4. Java API
-- 사전 작업
+- 사전 작업  
 (1) 클러스터 이름 변경  
 엘라스틱서치 폴더 내부에서 config폴더로 갑니다.  
 내부에 elasticsearch.yml 파일이 있는데 이 파일 내부에 cluster.name 부분의 주석을 없애고 원하는 이름으로 변경합니다.  
@@ -57,6 +57,7 @@ nohup ./elasticsearch &
 (참고 : https://www.elastic.co/guide/en/elasticsearch/client/java-api/current/java-docs-index.html )
 
 - ElasticSearch Import  
+
 (참고 : https://mvnrepository.com/artifact/org.elasticsearch/elasticsearch/2.4.1 )  
 위의 링크는 Maven Repository 검색사이트 인데 이곳에서는 jar파일도 다운로드 할 수 있습니다.  
 위 링크에서 Elasticsearch의 core jar파일을 다운받아서 프로젝트 라이브러리에 추가합니다.  
