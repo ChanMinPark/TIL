@@ -53,7 +53,20 @@ nohup ./elasticsearch &
 (재시작 방법을 몰라서 kill로 죽이고 실행시켰습니다.)  
 
 (2) Java API  
-(참 : https://dzone.com/articles/elasticsearch-java-api )
+(참 : https://dzone.com/articles/elasticsearch-java-api )  
+- ElasticSearch Client객체 생성
+엘라스틱서치 노드 객체를 생성하고 이 노드 객체를 이용하여 클라이언트를 생성합니다.  
+아래 방법으로는 엘라스틱서치의 기본 클러스터 이름인 'elasticsearch'로 선택됩니다.  
+```java
+Node node  = nodeBuilder().node();
+Client client = node.client();
+```
+
+아래 방법으로 원하는 클러스터 이름을 지정할 수 있습니다.  
+```java
+Node node = nodeBuilder().clusterName("yourclustername").node();
+Client client = node.client();
+```
 
 ## 5. Query
 (참고 : http://knight76.tistory.com/entry/elasitcsearch-DFS-Query-Then-Fetch )  
