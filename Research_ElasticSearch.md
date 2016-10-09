@@ -54,7 +54,8 @@ nohup ./elasticsearch &
 
 (2) Java API  
 (참고 : https://dzone.com/articles/elasticsearch-java-api )  
-- ElasticSearch Client객체 생성
+- ElasticSearch Client객체 생성  
+
 엘라스틱서치 노드 객체를 생성하고 이 노드 객체를 이용하여 클라이언트를 생성합니다.  
 아래 방법으로는 엘라스틱서치의 기본 클러스터 이름인 'elasticsearch'로 선택됩니다.  
 ```java
