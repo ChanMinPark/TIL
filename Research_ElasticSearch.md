@@ -54,6 +54,13 @@ nohup ./elasticsearch &
 
 (2) Java API  
 (참고 : https://dzone.com/articles/elasticsearch-java-api )  
+(참고 : https://www.elastic.co/guide/en/elasticsearch/client/java-api/current/java-docs-index.html )
+
+- ElasticSearch Import  
+(참고 : https://mvnrepository.com/artifact/org.elasticsearch/elasticsearch/2.4.1 )  
+위의 링크는 Maven Repository 검색사이트 인데 이곳에서는 jar파일도 다운로드 할 수 있습니다.  
+위 링크에서 Elasticsearch의 core jar파일을 다운받아서 프로젝트 라이브러리에 추가합니다.  
+
 - ElasticSearch Client객체 생성  
 
 엘라스틱서치 노드 객체를 생성하고 이 노드 객체를 이용하여 클라이언트를 생성합니다.  
