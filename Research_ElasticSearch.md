@@ -72,17 +72,19 @@ nohup ./elasticsearch &
 
 - ElasticSearch Client객체 생성  
 
-엘라스틱서치 노드 객체를 생성하고 이 노드 객체를 이용하여 클라이언트를 생성합니다.  
-아래 방법으로는 엘라스틱서치의 기본 클러스터 이름인 'elasticsearch'로 선택됩니다.  
 ```java
-Node node  = nodeBuilder().node();
-Client client = node.client();
-```
-
-아래 방법으로 원하는 클러스터 이름을 지정할 수 있습니다.  
-```java
-Node node = nodeBuilder().clusterName("yourclustername").node();
-Client client = node.client();
+// ElasticSearch Client 객체 생성
+		TransportClient esclient = null;
+		
+		// 클러스터 이름을 직접 지정하도록 설정.
+		Settings settings = Settings.settingsBuilder().put("cluster.name", PCM_CLUSTER).build();
+		
+		// 직접 지정한 클러스터 셋팅을 적용하고 설치된 ElasticSearch에 접속.
+		// 주소는 로컬호스트, 포트는 9200
+		esclient = TransportClient.builder().settings(settings).build()
+				.addTransportAddress(
+						new InetSocketTransportAddress(
+								InetAddress.getLocalHost(),9200));
 ```
 
 ## 5. Query
