@@ -9,6 +9,14 @@ Elasticsearch is a search engine based on Lucene. It provides a distributed, mul
 (Wiki pedia)
 
 ## 2. ElasticSearch 특징
+- 아파치 루씬 기반  
+- 실시간 분석  
+- 분산 시스템  
+- 높은 가용성  
+- 멀티 테넌시  
+- 전문검색  
+- Json 문서 기반  
+- RESTful API  
 
 ## 3. 설치
 (참고 : http://bakyeono.net/post/2016-06-03-start-elasticsearch.html#section-5)  
