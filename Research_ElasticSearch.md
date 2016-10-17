@@ -84,8 +84,13 @@ Settings settings = Settings.settingsBuilder().put("cluster.name", PCM_CLUSTER).
 esclient = TransportClient.builder().settings(settings).build()
 		.addTransportAddress(
 				new InetSocketTransportAddress(
-						InetAddress.getLocalHost(),9200));
+						InetAddress.getLocalHost(),9300));
 ```
+
+## Tips.
+- ElasticSearch를 Java에서 사용하려면 dependency를 모두 추가해주어야 합니다. 라이브러리를 직접 추가하려면 모든 jar파일들을 다운받아서 WEB-INF/lib에 추가해줘야합니다. Maven을 사용하면 dependency만 추가해주면 됩니다.  
+- ElasticSearch는 RESTful API를 위해서 9200번 포트를 사용하고, 노드 내부에서 Java API를 위해서 9300번 포트를 사용합니다.  
+- 설정파일인 elasticsearch.yml에서 cluster.name은 사용중인 클러스터의 이름을 설정하는것이 아니라 기본으로 사용할 클러스터의 이름을 지정하는 것입니다.  
 
 ## 5. Query
 (참고 : http://knight76.tistory.com/entry/elasitcsearch-DFS-Query-Then-Fetch )  
