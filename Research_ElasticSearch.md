@@ -64,7 +64,7 @@ nohup ./elasticsearch &
 (참고 : https://dzone.com/articles/elasticsearch-java-api )  
 (참고 : https://www.elastic.co/guide/en/elasticsearch/client/java-api/current/java-docs-index.html )
 
-- ElasticSearch Import  
+- ElasticSearch 라이브러리 추가  
 
 (참고 : https://mvnrepository.com/artifact/org.elasticsearch/elasticsearch/2.4.1 )  
 위의 링크는 Maven Repository 검색사이트 인데 이곳에서는 jar파일도 다운로드 할 수 있습니다.  
