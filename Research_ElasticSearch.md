@@ -102,4 +102,8 @@ esclient = TransportClient.builder().settings(settings).build()
  - 얼마나 중요한 단어가 나타나는지 통계를 구해서 좋은 품질의 키워드의 점수를 높이는데 있다. 따라서, 속도는 좀 느릴 수 있지만, 좋은 품질을 얻을 수 있다. 
 
 - Query Then Fetch
- - 
+ - 각 샤드별 득점만 계산한다.
+ 
+### 6. Kibana
+(참고 : http://teamsmiley.xgridcolo.com/?p=884 )  
+
