@@ -34,7 +34,7 @@ tar -xvf elasticsearch-2.4.1.tar.gz
 ```
 
 Step 3. ElasticSearch 실행  
-아래 명령어로 ElasticSearch를 실행한다.  
+압축을 해제한 폴더 안의 bin폴더에 들어가서 아래 명령어로 ElasticSearch를 실행한다.  
 ```
 ./elasticsearch
 ```
