@@ -107,4 +107,8 @@ esclient = TransportClient.builder().settings(settings).build()
 ### 6. Kibana
 (참고 : http://teamsmiley.xgridcolo.com/?p=884 )  
 (참고 : http://aoruqjfu.fun25.co.kr/index.php/post/741 )  
-?키바나 설치 후에 엘라스틱서치도 재시작 해야하나?
+?키바나 설치 후에 엘라스틱서치도 재시작 해야하나?  
+
+1. Kinaba Download  
+https://www.elastic.co/downloads/kibana  
+
