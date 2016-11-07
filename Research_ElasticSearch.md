@@ -111,4 +111,29 @@ esclient = TransportClient.builder().settings(settings).build()
 
 Step 1. Kinaba Download  
 https://www.elastic.co/downloads/kibana  
+위 링크에서 자신이 사용하는 운영체제의 설치파일을 다운받습니다.  
 
+저는 우분투에서 설치하기 때문에 아래와 같이 다운로드 받습니다.  
+```
+$ wget https://artifacts.elastic.co/downloads/kibana/kibana-5.0.0-linux-x86_64.tar.gz
+```
+
+Step 2. Kibana 설치  
+다운로드 받은 kibana를 설치합니다.  
+말이 설치지 그냥 압축해제입니다.  
+```
+$ tar -xvf kibana-5.0.0-linux-x86_64.tar.gz
+```
+
+Step 3. Kibana 설정  
+Kibana를 압축해제하고 나면 사용하는 ElasticSearch와 연결해주어야합니다.  
+```{키바나 압축 해제 폴더}/config/kibana.yml```을 에디터로 열어서  
+**elasticsearch.url**에 연결하려는 ElasticSearch가 설치된 주소를 입력해 줍니다.  
+ex) "http://localhost:9200"  
+바꾸지 않으면 기본적으로 로컬호스트의 9200번 포트로 설정됩니다.  
+
+Step 4. Kibana 실행  
+Kibana 압축 해제한 폴더에서 아래 명령어로 실행시킵니다.  
+```
+bin/kibana
+```
