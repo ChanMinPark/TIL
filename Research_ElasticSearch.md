@@ -147,3 +147,7 @@ Step 5. Kibana 종료
 elasticsearch는 ```ps -ef | grep elasticsearch```로 찾으면 PID를 알수 있고 이걸로 kill 할수 있다.  
 하지만 kibana는 ps 목록에서 확인이 안된다.  
 ```netstat -pln | grep 5601```를 통해서 PID를 확인할 수 있다.
+
+Step 6. Kibana 사용  
+kibana를 사용하기 위해서는 로그스태시로 생성하는 index가 필요하다(?)고 한다.  
+(참고 : http://rea1man.tistory.com/entry/ELK-elasticsearch-logstash-kibana-%EC%84%A4%EC%B9%98-%EB%B0%8F-%EC%82%AC%EC%9A%A9 )
