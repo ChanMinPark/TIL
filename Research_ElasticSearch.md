@@ -142,3 +142,8 @@ Kibana 압축 해제한 폴더에서 아래 명령어로 실행시킵니다.
 ```
 bin/kibana
 ```
+
+Step 5. Kibana 종료  
+elasticsearch는 ```ps -ef | grep elasticsearch```로 찾으면 PID를 알수 있고 이걸로 kill 할수 있다.  
+하지만 kibana는 ps 목록에서 확인이 안된다.  
+```netstat -pln | grep 5601```를 통해서 PID를 확인할 수 있다.
