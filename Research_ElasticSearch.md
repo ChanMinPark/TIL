@@ -150,5 +150,5 @@ elasticsearch는 ```ps -ef | grep elasticsearch```로 찾으면 PID를 알수 �
 
 Step 6. Kibana 사용  
 kibana를 사용하기 위해서는 로그스태시로 생성하는 index가 필요하다(?)고 한다.  
-(참고 : http://rea1man.tistory.com/entry/ELK-elasticsearch-logstash-kibana-%EC%84%A4%EC%B9%98-%EB%B0%8F-%EC%82%AC%EC%9A%A9 )
+(참고 : http://rea1man.tistory.com/entry/ELK-elasticsearch-logstash-kibana-%EC%84%A4%EC%B9%98-%EB%B0%8F-%EC%82%AC%EC%9A%A9 )  
 (참고 : http://brownbears.tistory.com/74 )
