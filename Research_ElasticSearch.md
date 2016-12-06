@@ -31,7 +31,7 @@ wget https://download.elastic.co/elasticsearch/release/org/elasticsearch/distrib
 Step 2. 압축해제  
 아래 명령어로 압푹을 해제한다.  
 ```
-tar -xvf elasticsearch-2.4.1.tar.gz
+tar -xvzf elasticsearch-2.4.1.tar.gz
 ```
 
 Step 3. ElasticSearch 실행  
@@ -129,7 +129,7 @@ Step 2. Kibana 설치
 다운로드 받은 kibana를 설치합니다.  
 말이 설치지 그냥 압축해제입니다.  
 ```
-$ tar -xvf kibana-5.0.0-linux-x86_64.tar.gz
+$ tar -xvzf kibana-5.0.0-linux-x86_64.tar.gz
 ```
 
 Step 3. Kibana 설정  
