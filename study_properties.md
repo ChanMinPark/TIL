@@ -43,3 +43,14 @@
 - 함께 쓰는 속성
  - ```background-color``` : 이미지를 로드하지 못했을 때 표시될 색상입니다.
  - ```background-size: cover``` : 이미지를 창 크기에 맞추서 축소시킨다. 어느정도 축소되면 축소되지 않고 잘립니다.
+
+
+### opacity
+- 예시
+```
+.walkinpcm-img-opacity {
+  opacity: 0.5;
+}
+```
+- 참고 링크 : https://www.w3schools.com/cssref/css3_pr_opacity.asp
+- 투명도를 설정합니다. 0~1.0 의 값을 가집니다.
