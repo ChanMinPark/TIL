@@ -53,4 +53,4 @@
 }
 ```
 - 참고 링크 : https://www.w3schools.com/cssref/css3_pr_opacity.asp
-- 투명도를 설정합니다. 0~1.0 의 값을 가집니다.
+- 투명도를 설정합니다. 0.0 ~ 1.0 의 값을 가집니다.
