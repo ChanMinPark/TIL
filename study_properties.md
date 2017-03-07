@@ -53,4 +53,27 @@
 }
 ```
 - 참고 링크 : https://www.w3schools.com/cssref/css3_pr_opacity.asp
-- 투명도를 설정합니다. 0.0 ~ 1.0 의 값을 가집니다.
+- 투명도를 설정합니다. 0.0~1.0 의 값을 가집니다.  
+
+
+### display
+- 예시
+```
+display: inline-block;
+```
+- 요소를 어떻게 보여줄지를 결정합니다.
+- 속성값
+ - none : 보이지 않음
+ - block : 블록 박스로 만듬
+ - inline : 인라인 박스로 만듬
+ - inline-block : block 박스로 만들어지나, inline 처럼 배치가 된다.
+
+### box-sizing
+- 예시
+```
+box-sizing: border-box;
+```
+- width와 height의 기준을 정합니다.
+- 속성값
+ - ```content-box``` : 기본값입니다. border, padding, margin을 제외한 순수 content 영역을 기준으로 합니다.
+ - ```border-box``` : margin을 제외한 content, padding, border를 포함함 영역을 기준으로 합니다.
