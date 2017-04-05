@@ -77,3 +77,20 @@ box-sizing: border-box;
 - 속성값
  - ```content-box``` : 기본값입니다. border, padding, margin을 제외한 순수 content 영역을 기준으로 합니다.
  - ```border-box``` : margin을 제외한 content, padding, border를 포함함 영역을 기준으로 합니다.
+
+### list-style-type
+- 예시
+```
+list-style-type: none;
+```
+- li 태그의 불릿 속성을 지정할 수 있습니다.
+- 속성값
+  - lower-roman : 로마숫자 소문자으로된 목록
+  - upper-roman : 로마숫자 대문자으로된 목록
+  - lower-alpha : 알파벳 소문자으로된 목록
+  - upper-alpha : 알파벳 대문자으로된 목록
+  - disc : 점으로 된 목록
+  - circle : 속이 하얀색 원으로 된 목록
+  - square : 사각형으로 된 목록
+  - decimal : 숫자로 된 목록
+  - none : 아무 표시 없음
