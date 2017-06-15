@@ -24,7 +24,6 @@ $git remote add (닉네임) (repository주소)
 ### <Git 사용>  
 .7. ```$git pull 닉네임 master``` 로 현재 GitHub에 있는 자료들을 로컬로 동기화 시킨다.   
 .8. 파일의 추가,수정,삭제 등의 변경이 발생하면  
-```
 ```$git add (파일명)```으로 추가하고(전체 add는 ```$git add .```)  
 ```$git commint -m "메세지"```를 한다. 그리고나서  
 ```$git push 닉네임 master```로 GitHub에 최종적으로 업로드한다.  
