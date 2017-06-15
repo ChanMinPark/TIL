@@ -9,6 +9,7 @@
 .3. 로컬pc에서 git을 설치한다.  
   - (리눅스의 경우)```$sudo apt-get install git```  
   - (윈도우의 경우) https://git-scm.com/downloads  
+  
 .4. 로컬pc에서 만든 폴더에 들어가서 ```$git init```명령을 수행하면 해당 폴더를 git에 연동시킬 폴더로 사용할 준비가 된다.  
 .5. git에 upload할때 사용될 사용자명과 이메일을 등록한다.  
 ```
