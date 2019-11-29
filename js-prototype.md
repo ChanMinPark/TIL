@@ -34,8 +34,8 @@ smallCar와 bigCar는 크기가 다를 뿐 둘다 자동차입니다. 자동차�
 
 ## Prototype Object에 접근하기  
 위의 예시를 토대로 Prototype에 접근하는 방법을 알아보면,  
-Car.prototype 또는 smallCar.__proto__ / bigCar.__proto__ 를 이용해서 Prototype Object에 접근할 수 있습니다.  
-즉, {생성자함수}.prototype 또는 {객체}.__proto__ 가 Prototype Object를 가리킵니다.  
+```Car.prototype``` 또는 ```smallCar.__proto__``` / ```bigCar.__proto__``` 를 이용해서 Prototype Object에 접근할 수 있습니다.  
+즉, ```{생성자함수}.prototype``` 또는 ```{객체}.__proto__``` 가 Prototype Object를 가리킵니다.  
 
 
 ### 참고자료  
